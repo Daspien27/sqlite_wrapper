@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 3.6)
+cmake_minimum_required (VERSION 3.14)
 project (sqlite_wrapper)
 
 cmake_policy(SET CMP0074 NEW)
