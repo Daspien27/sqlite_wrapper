@@ -5,7 +5,6 @@ cmake_policy(SET CMP0074 NEW)
 
 set(SQLite3_ROOT "Location of SQLite files" CACHE PATH "SQLite 3 location")
 
-#set (${CMAKE_PREFIX_PATH} ${SQLITE3_DIR})
 find_package(SQLite3 REQUIRED)
 
 add_library(sqlite_wrapper INTERFACE)
